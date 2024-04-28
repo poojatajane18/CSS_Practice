@@ -1,0 +1,5 @@
+/*Now change the display of all list items to inline to move them all in a single line.
+Did you notice something different? Try to find why the bullet points disappea */
+li {
+    display: inline;
+}

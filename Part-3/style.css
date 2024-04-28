@@ -1,0 +1,40 @@
+div {
+    height: 200px;
+    width: 600px;
+    background-color: rgb(241, 142, 175);
+   /* border-width: 5px;
+    border-style: double;
+    border-color: black;*/
+
+    border : 5px solid black; /* shorthand*/
+    
+    border-left-color: darkblue;
+    border-left-style: dashed;
+    border-left-width: 7px;
+
+    border-right: 5px dotted darkgreen;   /*shorthand */
+
+    border-radius: 10px;
+    /*border-top-right-radius: 10px;  As particular */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+
+}
+
+h1 {
+    /* border-width: 7px; 
+    border-color: yellow;
+    border-style: dotted;*/
+    border : 7px double purple;
+}
+
+button {
+    border: 5px solid black;
+    background-color: aqua;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

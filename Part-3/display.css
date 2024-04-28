@@ -1,0 +1,47 @@
+/*
+
+h1 {
+    display: inline;
+    background-color: aquamarine;
+}
+
+span {
+    display: block;
+    background-color: aqua;
+}
+
+*/
+
+/*
+
+span {
+    background-color: pink;
+    border: 2px solid black;
+    height: 100px;                 height & width doesn't apply in inline element 
+    width: 200px;
+    padding: 50px;        apply only left & right 
+} 
+
+div {
+    border: 2px solid black;
+    height: 100px;                 height & width  apply in block element 
+    width: 200px;
+    padding: 50px; 
+}
+
+*/
+
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+
+#third {
+    display: none;
+}
+

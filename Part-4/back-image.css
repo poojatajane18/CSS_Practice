@@ -1,0 +1,8 @@
+div {
+    height: 300px;
+    width: 800px;
+    margin: 10px auto;
+    background-color: #7aa874;
+    background-image: url("link2.webp");
+    background-size: cover;
+}

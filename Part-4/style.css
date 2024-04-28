@@ -1,0 +1,25 @@
+/* alpha channel */
+div {
+    height: 200px;
+    width: 200px;
+    /*background-color: rgba(255, 0, 0, 0.693);*/
+    background-color: #00ff00bd;
+}
+
+/* Opacity */
+#op {
+    background-color: #ff00cc;
+    opacity: 0.5;
+}
+
+/* Transition */
+#transition {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: blueviolet;
+    transition: margin-left 2s ease 0.2s;
+}
+#transition:hover {
+    margin-left: 600px;
+    background-color: aqua;
+}

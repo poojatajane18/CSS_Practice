@@ -1,0 +1,113 @@
+/*Universal Selector - Selects all html elements on the page */
+* {
+    font-family: 'Courier New';
+}
+
+
+/*Element selector - select hml element by name */
+h1 {
+    color: #b92b27;
+} 
+/*
+h1,h3 {
+    color: #b92b27;
+}*/
+
+
+/*Id Selector - select id attribute of html elements  for specific element*/
+#signin {
+    background-color: white;
+}
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class Selector - select class attribute of html for specific element */
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+#myId p {
+    color: green;
+}
+
+/*  Another way  : 
+
+div[id ="myId"] p {
+    color: green;
+} 
+ */
+
+/*Descendant selector - select under the html elements */
+.post a {
+    color: purple;
+}
+nav ul li a{
+    color: cyan;
+}
+
+/* Adjacent Sibling Combinator - select elements that comes after the othe (immedieatly) */
+p + h3 {
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color: darkorchid;
+    color: bisque;
+}
+
+/* Child Combinator */
+div > input {
+    background-color: chartreuse;
+}
+
+
+/* Attribute Selector - selects the attribute of element */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: blanchedalmond;
+}
+
+/* PSEUDO CLASSESS : Hover, Active,Checked,nth-of-type */
+button:hover {
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active {
+    background-color: chocolate;
+    color: black;
+}
+p:active {
+    background-color: aqua;
+    font-weight: bold;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2n) {
+    background-color: burlywood;
+}
+
+/* PSEUDO ELEMENTS : */
+h1::first-letter {
+    color: black;
+}
+p::first-line {
+    color: blue;
+}
+p::selection {
+    background-color: cadetblue;
+}
+
